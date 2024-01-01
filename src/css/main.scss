@@ -146,6 +146,7 @@ header#header {
 .values {
   background-color: $primary_dark;
   color: $info;
+  padding: $default_dist;
 }
 
 .tabs-container {
@@ -409,6 +410,10 @@ form {
   }
 
   // tabs
+
+  .values {
+    padding: $default_dist / 4;
+  }
 
   .tabs-header {
     grid-template-columns: repeat(2, 1fr);
