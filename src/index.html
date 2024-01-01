@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <title>Craftsman</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="logo">
+        <a href="/" style="height: inherit">
+          <img
+            src="./assets/AK-logo-beige.svg"
+            alt="Craftsman logo"
+            style="height: inherit"
+          />
+        </a>
+      </div>
+      <div class="expander"></div>
+      <nav class="main-nav">
+        <ul class="menu">
+          <li class="menu-el"><a href="#" class="menu-link">Галерея</a></li>
+          <li class="menu-el">
+            <a href="#" class="menu-link">Про Майстра</a>
+          </li>
+          <li class="menu-el"><a href="#" class="menu-link">Замовити</a></li>
+        </ul>
+      </nav>
+      <button hidden class="mobile-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <section class="hero-page">
+      <div class="hero-flex-container">
+        <div class="hero-text">
+          <h1>Шкіряні вироби з душею</h1>
+          <p>
+            Станьте власником унікального витвору мистецтва з натуральної шкіри,
+            оздобленого роками досвіду. Подаруйте своєму вірному ножеві гідне
+            вбрання.
+          </p>
+          <button class="hero-button-order">Замовити</button>
+        </div>
+        <div class="hero-img">
+          <img
+            src="./assets/hero_pic.png"
+            alt="Hero image of handmade sheaths"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="values">
+      <h1 style="max-width: 1440px; margin: 0 auto">Наші цінності</h1>
+      <div class="tabs-container">
+        <div class="tabs-header">
+          <div class="tab-header-1 active-header">
+            <h4>Матеріали</h4>
+          </div>
+          <div class="tab-header-2">
+            <h4>Деталі</h4>
+          </div>
+          <div class="tab-header-3">
+            <h4>Якість</h4>
+          </div>
+          <div class="tab-header-4">
+            <h4>Ручна робота</h4>
+          </div>
+        </div>
+
+        <div class="tabs-body">
+          <div class="tab-content-1 active-content">
+            <div class="tab-text">
+              <h2>Натуральні матеріали</h2>
+              <p>
+                Використання виключно натуральної шкіри різного типу для
+                досягнення максимальної автентичності продукту. Від вставок у
+                виробі до зубів та пір’ї на підвісах - натуральні атрибути
+                вищого ґатунку.
+              </p>
+            </div>
+            <div class="tab-images">
+              <div class="tab-img">
+                <img src="./assets/images-material.png" alt="Material images" />
+              </div>
+            </div>
+          </div>
+          <div class="tab-content-2">
+            <div class="tab-text">
+              <h2>Увага до деталей</h2>
+              <p>
+                Розробка проекту виконується з вивченням інструменту, для якої
+                він призначений, та з урахуванням побажань замовника.
+              </p>
+              <p>
+                Прискіплива увага до дрібниць довершує композицію небаченими
+                тонкощами.
+              </p>
+            </div>
+            <div class="tab-images">
+              <div class="tab-img">
+                <img src="./assets/axe_wing.png" alt="Image with details" />
+              </div>
+            </div>
+          </div>
+          <div class="tab-content-3">
+            <div class="tab-text">
+              <h2>Виключна якість</h2>
+              <p>
+                Крізь роки спроб та помилок пронесено найкращі тонкощі
+                технології виготовлення шкіряних виробів. Проект не вважається
+                завершеним до тих пір, поки у майстра не виникне думки "І собі
+                такого бажав би".
+              </p>
+            </div>
+            <div class="tab-images">
+              <div class="tab-img">
+                <img
+                  src="./assets/images-quality.png"
+                  alt="Images of quality"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="tab-content-4">
+            <div class="tab-text">
+              <h2>Душа у кожному кроці нитки</h2>
+              <p>
+                В роботі не використовується станків для обробки чи прошивки
+                шкіри. Кожен стібок виконаний вручну. Це стає першопричиною
+                точності та унікальності кожного виробу.
+              </p>
+              <p>У майстра не буває двох ідентичних проектів.</p>
+            </div>
+            <div class="tab-images">
+              <div class="tab-img">
+                <img src="./assets/instrument.png" alt="Image of progress" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us">
+      <div class="contact-grid">
+        <div>
+          <h1>Доторкніться до мистецтва</h1>
+          <div class="form-container">
+            <h2>Зв'яжіться з нами</h2>
+            <form>
+              <div class="field">
+                <label for="form-name">Ім'я</label>
+                <input
+                  type="text"
+                  id="form-name"
+                  name="name"
+                  placeholder="Ім'я"
+                />
+              </div>
+
+              <div class="field">
+                <label for="form-email">Електронна скринька</label>
+                <input
+                  type="text"
+                  id="form-email"
+                  name="e-mail"
+                  placeholder="Електронна скринька"
+                />
+              </div>
+
+              <div class="field">
+                <textarea
+                  id="form-message"
+                  name="message"
+                  rows="4"
+                  maxlength="1000"
+                  placeholder="Повідомлення..."
+                ></textarea>
+                <span id="char-count" style="align-self: end">1000</span>
+              </div>
+
+              <div>
+                <input
+                  class="form-submit-button"
+                  type="button"
+                  value="Надіслати"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="contact-helper-text">
+          <h2>Досі сумніваєтесь?</h2>
+          <ul>
+            <li>
+              <p>
+                <span class="contact-helper-text-label"
+                  >Запорука незмінної якості</span
+                >
+                - це виконання усіх замовлень одним майстром.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="contact-helper-text-label">Ручна робота</span> - це
+                можливість стати власником прикраси, якій у світі немає
+                дуплікатів.
+              </p>
+            </li>
+            <li>
+              <p>
+                <span class="contact-helper-text-label"
+                  >Розмова з майстром</span
+                >
+                - це найкраща точність перетворення бачення в реальність.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="social-icons">
+        <ul class="icons-list">
+          <li>
+            <a href="#"><img src="./assets/facebook.svg" alt="@facebook" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./assets/pinterest.svg" alt="@pinterest"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./assets/instagram.svg" alt="@instagram"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="expander"></div>
+      <div class="footer-links">
+        <a href="#"><span>Terms of Use</span></a>
+        <a href="#"><span>Privacy policy</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
